@@ -39,3 +39,5 @@ slope, intercept, r_value, p_value, std_err = stats.linregress(
 
 print(f'R² = {r_value**2:.2f}')   # 解釋力
 print(f'p值 = {p_value:.4f}')     # 是否顯著
+
+print("這是練習有改變的地方")
